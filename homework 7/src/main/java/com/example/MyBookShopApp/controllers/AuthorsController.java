@@ -1,8 +1,8 @@
 package com.example.MyBookShopApp.controllers;
 
-import com.example.MyBookShopApp.data.Author;
-import com.example.MyBookShopApp.data.service.AuthorService;
-import com.example.MyBookShopApp.data.dto.BooksPageDto;
+import com.example.MyBookShopApp.entities.book.Author;
+import com.example.MyBookShopApp.service.AuthorService;
+import com.example.MyBookShopApp.entities.DTO.BooksPageDto;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

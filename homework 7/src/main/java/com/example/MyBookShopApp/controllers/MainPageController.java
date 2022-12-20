@@ -1,12 +1,12 @@
 package com.example.MyBookShopApp.controllers;
 
-import com.example.MyBookShopApp.data.book.Book;
-import com.example.MyBookShopApp.data.dto.BooksPageDto;
-import com.example.MyBookShopApp.data.dto.RecentBookPage;
-import com.example.MyBookShopApp.data.dto.SearchWordDto;
-import com.example.MyBookShopApp.data.dto.TagDto;
-import com.example.MyBookShopApp.data.service.BookService;
-import com.example.MyBookShopApp.data.service.TagService;
+import com.example.MyBookShopApp.entities.book.Book;
+import com.example.MyBookShopApp.entities.DTO.BooksPageDto;
+import com.example.MyBookShopApp.entities.DTO.RecentBookPage;
+import com.example.MyBookShopApp.entities.DTO.SearchWordDto;
+import com.example.MyBookShopApp.entities.DTO.TagDto;
+import com.example.MyBookShopApp.service.BookService;
+import com.example.MyBookShopApp.service.TagService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

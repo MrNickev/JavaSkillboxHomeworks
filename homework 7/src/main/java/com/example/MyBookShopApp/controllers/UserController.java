@@ -1,8 +1,8 @@
 package com.example.MyBookShopApp.controllers;
 
-import com.example.MyBookShopApp.data.book.Book;
-import com.example.MyBookShopApp.data.dto.RateBookDto;
-import com.example.MyBookShopApp.data.service.BookService;
+import com.example.MyBookShopApp.entities.book.Book;
+import com.example.MyBookShopApp.entities.DTO.RateBookDto;
+import com.example.MyBookShopApp.service.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

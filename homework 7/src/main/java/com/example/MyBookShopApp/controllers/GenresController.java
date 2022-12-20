@@ -1,8 +1,8 @@
 package com.example.MyBookShopApp.controllers;
 
-import com.example.MyBookShopApp.data.service.BookService;
-import com.example.MyBookShopApp.data.dto.BooksPageDto;
-import com.example.MyBookShopApp.data.service.GenreService;
+import com.example.MyBookShopApp.service.BookService;
+import com.example.MyBookShopApp.entities.DTO.BooksPageDto;
+import com.example.MyBookShopApp.service.GenreService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

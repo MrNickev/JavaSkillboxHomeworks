@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<div class="Tags" id="tags" th:fragment="cloud">
-    <!--Tag_sm Tag_md Tag_lg Tag_xs -->
-    <div class="Tag" th:each="tag:${tags}" th:class=" ${tag.type}"><a href="/tags/index.html" th:text="${tag.name}">современная
-        литература</a>
-    </div>
-</div>
-</html>
